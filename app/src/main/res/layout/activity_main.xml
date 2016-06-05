@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anand.ppg_android_version2.MainActivity">
+
+     <SurfaceView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/surfaceView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello!"
+        android:id="@+id/greetingText"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/surfaceView"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anand"
+        android:id="@+id/usernameText"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_below="@id/greetingText"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="000"
+        android:id="@+id/count_text"
+        android:textSize="150sp"
+        android:textAlignment="center"
+        android:layout_below="@id/usernameText"
+        android:layout_centerHorizontal="true"
+        />
+        <!--android:layout_alignTop="@id/usernameText"
+            android:layout_alignParentRight="true" -->
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Message Text"
+        android:id="@+id/messageText"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/count_text"
+        android:layout_alignRight="@id/count_text"
+         />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/messageText"
+        android:layout_marginTop="40dp"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:id="@+id/startbutton"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:id="@+id/stopbutton"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/startbutton"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEBUG TEXT"
+        android:id="@+id/debugText1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/startbutton"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEBUG TEXT2"
+        android:id="@+id/debugText2"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/debugText1"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEBUG TEXT3"
+        android:id="@+id/debugText3"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/debugText2"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEBUG TEXT4"
+        android:id="@+id/debugText4"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/debugText3"
+        android:layout_marginTop="5dp"
+        />
+</RelativeLayout>

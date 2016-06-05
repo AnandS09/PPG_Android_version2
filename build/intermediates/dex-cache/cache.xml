@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Code\PPG_Android_version2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\Code\PPG_Android_version2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_3a4c91b070979a2d1ef72551aa94835de0dd8b86.jar" />
+    </item>
+    <item
+        jar="D:\Code\PPG_Android_version2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\Code\PPG_Android_version2\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_a84a24173c869359d3d52abe9f84f14143bc678c.jar" />
+    </item>
+    <item
+        jar="H:\AndroidStudioSdk\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\Code\PPG_Android_version2\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_a6707157db37600d2bcce08d71229edfbb18cd73.jar" />
+    </item>
+    <item
+        jar="D:\Code\PPG_Android_version2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\Code\PPG_Android_version2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_cce799ac215ef9070e197a71011fea974f0a2bd3.jar" />
+    </item>
+    <item
+        jar="D:\Code\PPG_Android_version2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\Code\PPG_Android_version2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_fdb802014a2889d44f21667a10424b9e5a5eb6df.jar" />
+    </item>
+    <item
+        jar="D:\Code\PPG_Android_version2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\Code\PPG_Android_version2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_e427ac4c7d7ee07446ab128b7be37b625d2a9474.jar" />
+    </item>
+
+</items>
